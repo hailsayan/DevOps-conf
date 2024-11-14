@@ -2,7 +2,7 @@ all:
   children:
     tools-servers:
       hosts:
-        repo-server:
+        tools-server:
           ansible_host: IP
           ansible_user: root
           ansible_port: PORT
