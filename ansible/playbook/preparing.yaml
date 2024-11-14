@@ -4,5 +4,7 @@
   gather_facts: true
   name: Hardening & Tunning os
   roles:
-  # preparing server & hardening
-  - role: roles/preparing_server, become: true, tags: preparing_server
+    # preparing server & hardening
+    - role: roles/preparing_server
+      become: true
+      tags: preparing_server
