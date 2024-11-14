@@ -1,0 +1,8 @@
+---
+- hosts: tools-server
+  become: true
+  gather_facts: yes
+  name: install & configure docker service
+  roles:
+  # install & configure docker service
+    - docker: roles/docker, become: True, tags: docker_setup
