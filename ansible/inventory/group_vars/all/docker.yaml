@@ -1,0 +1,4 @@
+# docker variables
+docker:
+  log_max_file: "5"
+  log_max_size: 100m

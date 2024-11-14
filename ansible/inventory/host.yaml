@@ -1,0 +1,8 @@
+all:
+  children:
+    tools-servers:
+      hosts:
+        repo-server:
+          ansible_host: IP
+          ansible_user: root
+          ansible_port: PORT
